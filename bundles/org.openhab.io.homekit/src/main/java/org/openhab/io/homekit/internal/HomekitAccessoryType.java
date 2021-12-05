@@ -48,6 +48,7 @@ public enum HomekitAccessoryType {
     HEATER_COOLER("HeaterCooler"),
     LIGHT_SENSOR("LightSensor"),
     AIR_QUALITY_SENSOR("AirQualitySensor"),
+    DOORBELL("Doorbell"),
     DUMMY("Dummy");
 
     private static final Map<String, HomekitAccessoryType> TAG_MAP = new HashMap<>();

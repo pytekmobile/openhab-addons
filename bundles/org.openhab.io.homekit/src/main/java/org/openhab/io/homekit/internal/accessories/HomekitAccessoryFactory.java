@@ -13,6 +13,7 @@
 package org.openhab.io.homekit.internal.accessories;
 
 import static org.openhab.io.homekit.internal.HomekitAccessoryType.*;
+import static org.openhab.io.homekit.internal.HomekitAccessoryType.DOORBELL;
 import static org.openhab.io.homekit.internal.HomekitCharacteristicType.*;
 
 import java.lang.reflect.InvocationTargetException;
@@ -126,6 +127,7 @@ public class HomekitAccessoryFactory {
             put(DOOR, HomekitDoorImpl.class);
             put(WINDOW, HomekitWindowImpl.class);
             put(HEATER_COOLER, HomekitHeaterCoolerImpl.class);
+            put(DOORBELL, HomekitDoorbellImpl.class);
         }
     };
 
